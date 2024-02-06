@@ -1,0 +1,9 @@
+kiwi * 47,92,24,51,9,46,9,68,67,76,79,45,75,82,91,27,59,71,65,71,61,51,59,42,83,3,27,31,3,34,86,36,67,47,32,69,76,87,36,45,77,86,59,72,36,92,63,84,41,54,3,95,59,58,21,69,38,93,49
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+apple
+
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+// This is a comment
