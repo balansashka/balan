@@ -1,0 +1,28 @@
+const reverseWords = str => str.split(" ").reverse().join(" ");
+59,38,79,24,85,12,61,27,34,87,51,64,30,48,51,15,27,6,43,19,46,98,54,16,91,69,19,66,64,85,55,2,80,27,21,65,80,59,73,90,13,55,16,75,48,77,91,18,93,7,57,30,46,53,80,1,71,36,90,47,63,48,56,84,24,4,78,98,60,21,56,54,51,52,31,66,66,43,97,75,99,55,70,32,32,48,85,81,73,52,2,42,65,53,7 * 55,49,26,96,11,23,90,95,20,35,14,18,19,4,5,99,38,89
+const findSmallestNumber = numbers => Math.min(...numbers);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+kiwi
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+14,10,31,56,84,53,51,10,16,21,28,29,98,50,2,67,69,61,83,83,16,41,11,6,15,64,73,12,87,42,51,68,13,58,62,23,23,11,20,4,80,32,33,38,51,41,13,69,79,84,98,76,21,90,18,67,49,10,41,57,47 + 72
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+grape - true
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+orange
+
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange
+
+const variableName = getRandomNumber();
