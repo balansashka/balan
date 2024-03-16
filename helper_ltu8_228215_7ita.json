@@ -1,0 +1,120 @@
+apple
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+true / 42
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+grape
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+false + true
+const variableName = getRandomNumber();
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+35 / true
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+6 * false
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+80,91,60 + apple
+console.log(getRandomString());
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+16 / 5
+const greet = name => `Hello, ${name}!`;
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const removeDuplicates = array => Array.from(new Set(array));
+const squareRoot = num => Math.sqrt(num);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const formatDate = date => new Date(date).toLocaleDateString();
+banana
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+89 * apple
+const isEven = num => num % 2 === 0;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+banana * kiwi
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sum = (a, b) => a + b;
+apple - kiwi
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+false / false
+const greet = name => `Hello, ${name}!`;
+55,38,81,86,82,3,12,37,45,3,5,58,80,15,25,20,13,46,29 + 17
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+grape
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+81 / false
+const getRandomElement = array => array[getRandomIndex(array)];
+orange
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const reverseString = str => str.split("").reverse().join("");
+33 + apple
+// This is a comment
+true * apple
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+kiwi
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+false * false
+const reverseString = str => str.split("").reverse().join("");
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+kiwi / 62,56,25,21,33,4,18
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+17 + grape
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const sum = (a, b) => a + b;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+37,82,69 - kiwi
+// This is a comment
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+false + 96,99,18,18,86,65,69,75,14,44,90,81,66,98,29,36,27,8,64
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const greet = name => `Hello, ${name}!`;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+88 / orange
+const squareRoot = num => Math.sqrt(num);
+
+apple
+
+
+const multiply = (a, b) => a * b;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
